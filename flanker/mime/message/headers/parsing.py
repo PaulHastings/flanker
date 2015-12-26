@@ -6,7 +6,7 @@ from flanker.mime.message.headers.wrappers import ContentType, WithParams
 from flanker.mime.message.errors import DecodingError
 from flanker.utils import to_unicode, is_pure_ascii
 
-MAX_LINE_LENGTH = 100000
+MAX_LINE_LENGTH = 500000
 
 
 def normalize(header):
